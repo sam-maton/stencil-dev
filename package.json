@@ -46,5 +46,6 @@
     "jest-cli": "^29.7.0",
     "puppeteer": "^24.3.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.0.1+sha1.0e0a9c2d140ddf9aab730067eb7bcfb9e18bdee7"
 }
