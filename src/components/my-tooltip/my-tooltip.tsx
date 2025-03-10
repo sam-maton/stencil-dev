@@ -9,6 +9,7 @@ export class MyTooltip {
   render() {
     return (
       <Host>
+        <h1>Tooltip!</h1>
         <slot></slot>
       </Host>
     );
