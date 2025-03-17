@@ -20,8 +20,10 @@ export class MyTooltip {
   render() {
     return (
       <Host onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-        <slot></slot>
-        {this.open && <div>{this.text}</div>}
+        <span>
+          <slot></slot>
+        </span>
+        {this.open && <div class={'tooltip-content'}>{this.text}</div>}
       </Host>
     );
   }

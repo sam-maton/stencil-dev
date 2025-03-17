@@ -1,3 +1,9 @@
-:host {
-  display: block;
+span {
+  text-decoration: underline dashed red;
+}
+
+.tooltip-content {
+  position: fixed;
+  background-color: white;
+  padding: 1rem;
 }
