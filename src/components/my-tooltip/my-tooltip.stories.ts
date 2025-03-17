@@ -6,7 +6,14 @@ const meta: Meta = {
 };
 
 export default meta;
+type Story = StoryObj;
 
-export const Default: StoryObj = {
+export const Default: Story = {
+  name: 'default state',
   args: {},
+  render: () => {
+    return `<my-tooltip text="Some test text for the tooltip">
+      <p>Some child text!</p>
+    </my-tooltip>`;
+  },
 };
