@@ -6,4 +6,5 @@ span {
   position: fixed;
   background-color: white;
   padding: 1rem;
+  border: 1px solid black;
 }
